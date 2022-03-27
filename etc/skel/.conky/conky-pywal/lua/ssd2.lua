@@ -6,28 +6,28 @@ function hex2rgb(hex)
 end
 
 -- HTML colors
-color0="#101118"
-color1="#4144AB"
-color2="#4B5AAD"
-color3="#596ACF"
-color4="#966BA2"
-color5="#788498"
-color6="#7688E2"
-color7="#c3c8ed"
-color8="#888ca5"
-color9="#4144AB"
-color10="#4B5AAD"
-color11="#596ACF"
-color12="#966BA2"
-color13="#788498"
-color14="#7688E2"
-color15="#c3c8ed"
-color66="#101118"
+color0="#33304b"
+color1="#D76C84"
+color2="#4CA293"
+color3="#6AA28E"
+color4="#9EA48A"
+color5="#E2A188"
+color6="#9CCB96"
+color7="#e7dbc0"
+color8="#a19986"
+color9="#D76C84"
+color10="#4CA293"
+color11="#6AA28E"
+color12="#9EA48A"
+color13="#E2A188"
+color14="#9CCB96"
+color15="#e7dbc0"
+color66="#33304b"
 t0= 1
 t0_border= 0.3
 r0, g0, b0 = hex2rgb(color0)
 t1= 1
-r1, g1, b1 = hex2rgb(color1)
+r1, g1, b1 = hex2rgb(color2)
 t2= 1
 r2, g2, b2 = hex2rgb(color7)
 t3= 1
