@@ -6,35 +6,35 @@ function hex2rgb(hex)
 end
 
 -- HTML colors
-color0="#33304b"
-color1="#D76C84"
-color2="#4CA293"
-color3="#6AA28E"
-color4="#9EA48A"
-color5="#E2A188"
-color6="#9CCB96"
-color7="#e7dbc0"
-color8="#a19986"
-color9="#D76C84"
-color10="#4CA293"
-color11="#6AA28E"
-color12="#9EA48A"
-color13="#E2A188"
-color14="#9CCB96"
-color15="#e7dbc0"
-color66="#33304b"
+color0="#0c0d17"
+color1="#BF5853"
+color2="#7A866E"
+color3="#969173"
+color4="#EA9875"
+color5="#6E8F88"
+color6="#A2A98F"
+color7="#eccebd"
+color8="#a59084"
+color9="#BF5853"
+color10="#7A866E"
+color11="#969173"
+color12="#EA9875"
+color13="#6E8F88"
+color14="#A2A98F"
+color15="#eccebd"
+color66="#0c0d17"
 t0= 1
 t0_border= 0.3
 r0, g0, b0 = hex2rgb(color0)
 t1= 1
-r1, g1, b1 = hex2rgb(color1)
+r1, g1, b1 = hex2rgb(color2)
 t2= 1
 r2, g2, b2 = hex2rgb(color7)
 t3= 1
 r3, g3, b3 = hex2rgb(color8)
 
-pathname="Home"
-pathway="/home"
+pathname="Root"
+pathway="/"
 
 function fix_text(text)
 	if string.len(text) == 1 then

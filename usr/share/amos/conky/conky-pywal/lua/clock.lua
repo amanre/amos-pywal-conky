@@ -6,23 +6,23 @@ function hex2rgb(hex)
 end
 
 -- HTML colors
-color0="#2d224b"
-color1="#3A5E88"
-color2="#B05984"
-color3="#D76C84"
-color4="#4CA293"
-color5="#6AA28D"
-color6="#9EA48A"
-color7="#ebbfb9"
-color8="#a48581"
-color9="#3A5E88"
-color10="#B05984"
-color11="#D76C84"
-color12="#4CA293"
-color13="#6AA28D"
-color14="#9EA48A"
-color15="#ebbfb9"
-color66="#2d224b"
+color0="#0c0d17"
+color1="#BF5853"
+color2="#7A866E"
+color3="#969173"
+color4="#EA9875"
+color5="#6E8F88"
+color6="#A2A98F"
+color7="#eccebd"
+color8="#a59084"
+color9="#BF5853"
+color10="#7A866E"
+color11="#969173"
+color12="#EA9875"
+color13="#6E8F88"
+color14="#A2A98F"
+color15="#eccebd"
+color66="#0c0d17"
 t0= 1
 t0_border= 0.3
 r0, g0, b0 = hex2rgb(color0)
@@ -103,11 +103,12 @@ function draw_clock(cr, w, h)
 	cairo_move_to(cr,c2_x+63,c2_y+66)
 	cairo_rel_line_to(cr,0,-5)
 	cairo_stroke(cr)
-	--Top handle
-	cairo_move_to(cr,c2_x+16,c2_y+11)
-	cairo_rel_line_to(cr,0,-5)
-	cairo_rel_line_to(cr,40,0)
-	cairo_rel_line_to(cr,0,5)
+	--Radio antenna
+	cairo_move_to(cr,c2_x+34,c2_y+11)
+	cairo_rel_line_to(cr,-15,-15)
+	cairo_stroke(cr)
+	cairo_move_to(cr,c2_x+36,c2_y+11)
+	cairo_rel_line_to(cr,15,-15)
 	cairo_stroke(cr)
 	--Middle line
 	cairo_set_line_width(cr, 1)
